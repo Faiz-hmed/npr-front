@@ -1,8 +1,7 @@
-
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: static-srv-deployment
+  name: npr-front
   labels:
     app : cwebserver
 spec:
