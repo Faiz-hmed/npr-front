@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: ws
-        image: gcr.io/lucky-outpost-354817/npr_proxy_service:v2.1
+        image: gcr.io/lucky-outpost-354817/npr-proxy-service
         imagePullPolicy: Always
 
         ports:
